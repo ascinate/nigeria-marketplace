@@ -6,7 +6,7 @@ module.exports = ({ env }) => {
   const connections = {
     mysql: {
       connection: {
-        host: env('DATABASE_HOST', 162.241.123.132),
+        host: env('DATABASE_HOST', 'earlyfixing.com'),
         port: env.int('DATABASE_PORT', 3306),
         database: env('DATABASE_NAME', 'earlyfpj_inknaija'),
         user: env('DATABASE_USERNAME', 'earlyfpj_subhojit'),
